@@ -1,0 +1,62 @@
+body{
+    background-color:burlywood;
+}
+main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-left: 460px;
+}
+.tree{
+    display: none;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    border-radius: 20px;
+    background-color: chocolate;
+    color:gold
+}
+.title{
+    margin-right: 60px;
+    color:crimson
+
+}
+button{
+    font-size: 50px;
+}
+.reset{
+    font-size:30px;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+    margin-left: 100px;
+}
+.new-game{
+    font-size: 30px;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    border-radius: 20px;
+    margin-right: 100px;
+
+}
+.play{
+    color: darkred;
+    margin-right: 100px;
+}
